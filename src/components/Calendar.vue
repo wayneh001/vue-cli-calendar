@@ -38,6 +38,9 @@ import CalendarView from "./CalendarView.vue"
 import CalendarViewHeader from "./CalendarViewHeader.vue"
 import { ICalendarItem, INormalizedCalendarItem } from "./ICalendarItem"
 import CalendarMath from "./CalendarMath"
+export default {
+  name: 'productModal',
+}
 
 class AppState {
 	showDate: Date = new Date()
